@@ -37,7 +37,7 @@ and doing interesting things that matter.</p>
         <a href="https://dribbble.com/bg_grier"><img src={require('../images/dribbble.svg')} width="120"></img><p>Dribbble</p></a>
         <a href="https://github.com/bohdanaTyshchenko"><img src={require('../images/github.svg')} width="120"></img><p>GitHub</p></a>
         <a href="https://www.linkedin.com/in/bohdana-tyshchenko/"><img src={require('../images/linkedin.svg')} width="120"></img><p>LinkedIn</p></a>
-        <a href=""><img src={require('../images/resume.svg')} width="120"></img><p>Resume</p></a>
+        <a href="https://drive.google.com/file/d/1YZmIjwZ-0khG4KytXWaD_wCg5ETTU8DM/view?usp=sharing"><img src={require('../images/resume.svg')} width="120"></img><p>Resume</p></a>
         <a href="https://codepen.io/btyshchenko"><img src={require('../images/codepen.svg')} width="120"></img><p>CodePen</p></a>
         <a href="https://www.behance.net/bgtyshchenko"><img src={require('../images/behance.svg')} width="120"></img><p>Behance</p></a>
       </div>
