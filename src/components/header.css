@@ -10,7 +10,7 @@
 .HeaderScrolled{
     background:#1D1D1D ;
     padding: 15px 0;
-    color: white;
+    
 }
 
 .HeaderGroup{
@@ -44,6 +44,14 @@
  }
 
 .Black{
+    color: black;
+}
+
+#black{
+    color: black;
+}
+
+#black1{
     color: black;
 }
 

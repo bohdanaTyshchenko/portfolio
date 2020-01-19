@@ -25,7 +25,8 @@ class Header extends React.Component{
     }
     else{
       this.setState({hasScrolled:true})
-      
+      document.getElementById('black').style.color='#FFFFFF';
+      document.getElementById('black1').style.color='#FFFFFF';
     }
     
      
@@ -38,8 +39,8 @@ class Header extends React.Component{
           <Link className="Head" to="#">BohDana</Link>
           <Link className="White" to="#Home">Home</Link>
           <Link className="White" to="#About">About</Link>
-          <Link className="Black" to="#Links">Links</Link>
-          <Link className="Black" to="#ContactMe">Contact me</Link>
+          <Link id="black1" to="#Links">Links</Link>
+          <Link id="black" to="#ContactMe">Contact me</Link>
         </div>
       </div>
     )
