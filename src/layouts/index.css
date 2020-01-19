@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+  font-family:'Montserrat', sans-serif;
+  margin:0;
+  font-size:20px;
+  line-height: 203%;
+  background: #FFFFFF;
+}
+
+
+.Background{
+  background: url('../images/Back.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 2900px; 
+  width: 100%;
+  background-position: center; 
+
+  
+  }
+
+
+
+.HomeText{
+  margin: 0;
+  text-align: right;
+  max-width: 500px;
+  color: #1D1D1D;
+  right:68px;
+  padding: 150px 50px;
+}
+
+.About h1{
+  position: absolute;
+  text-align: right;
+  max-width: 500px;
+  font-size: 35px;
+  right: 0px;
+  top:-70px;
+}
+
+.About p{
+  font-size: 20px;
+  line-height: 230%;
+}
+
+.About{
+  position:absolute;
+  top:930px;
+  right: 68px;
+  text-align: right;
+}
+
+#name{
+  position: absolute;
+  /*width: 502px;
+  height: 91px;*/
+  /*left: calc(50% - 400px/2 + 300px);*/
+  right: 68px;
+  top: 115px;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 120.4%;
+  /* or 116px */
+  letter-spacing: 0.08em;
+  opacity: 0;
+  animation: HomeAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+#lastName{
+position: absolute;
+/*width: 617px;
+height: 113px;*/
+/*left: calc(50% - 600px/2 + 280px);*/
+right: 68px;
+top: 220px;
+
+font-weight: 600;
+font-size: 77px;
+line-height: 113px;
+letter-spacing: 0.08em;
+opacity: 0;
+animation: HomeAnimation 3s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+#description{
+  position: absolute;
+  /*width: 550px;
+  height: 130px;*/
+  /*left: calc(50% - 600px/2 + 280px);*/
+  right: 68px;
+  top: 408px;
+  
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 160.4%;
+  /* or 44px */
+  letter-spacing: 0.09em;
+  opacity: 0;
+  animation: HomeAnimation 3s 0.6s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+.Photo{
+  background: url('../images/myPhoto.svg');
+  position: absolute;
+  width: 545px;
+  height: 585px;
+  top: 85px;
+  background-size: cover;
+  max-width: 100%;
+  
+}
+
+.Decor1{
+  background: url('../images/circle.svg');
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -40px;
+  background-size: cover;
+  max-width: 100%;
+  left:-370px;
+}
+
+.Decor2{
+  background: url('../images/circle2.svg');
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50px;
+  background-size: cover;
+  max-width: 100%;
+  left:-410px;
+}
+
+.Decor3{
+  background: url('../images/brush.png');
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 360px;
+  background-size: cover;
+  max-width: 100%;
+  left:-470px;
+  transform: rotate(258deg);
+}
+
+@media (max-width:640px)
+{
+    .Photo{
+      background: none;
+      position: absolute;
+      width:205px;
+      height: 245px;
+      top: 75px;
+      background-size: cover;
+      max-width: 100%;
+    }
+    #name{
+      font-size: 60px;
+    }
+
+    #lastName{
+      font-size: 57px;
+    }
+
+    #description{
+      font-size: 16px;
+
+    }
+
+}
+
+@keyframes HomeAnimation{
+  0%{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.Links h1{
+  color:white;
+  right: 200px;
+}
+
+.Links{
+  position: relative;
+  top:1500px;
+  margin: 100px 68px;
+  
+}
+
+.Links .Logos{
+  text-decoration: none;
+  text-align: center;
+}
+
+.Logos a{
+  text-decoration: none;
+
+}
+
+.Links .Logos{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+  margin:75px 0;
+  justify-items: center;
+  
+}
+
+.Logos a:hover{
+  animation: LinksAnimation 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Logos a:hover img{
+  transform: rotateY(360deg);
+}
+
+.Logos img{
+  transition: 1.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Logos p{
+  color: white;
+}
+
+@keyframes LinksAnimation{
+  0%{
+    opacity: 0;
+    transform: scale();
+
+  }
+
+  100%{
+    opacity: 1;
+    transform: scale(1.2);
+    
+  }}
+
+  .ContactMe{
+    position: absolute;
+    top:2600px;
+  }
+
+  .Info{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 190px;
+    margin:20px 68px;
+    justify-items: center;
+   
+  }
+
+  .Info p{
+    text-align: left;
+  }
+
+  .ContactMe a{
+    color: black;
+  }
+
+  .ContactMe a:hover{
+    text-decoration: double;
+    color: #D2BCFF;
+  }
+
+  #copyRight{
+    text-align: center;
+    
+  }
+
+  hr{
+    margin-right: 68px;
+    margin-left: 68px;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, rgba(210,188,255,1) 0%, rgba(163,243,255,1) 22%, 
+    rgba(153,255,212,1) 47%, rgba(255,252,176,1) 73%, rgba(255,190,221,1) 100%);
+    height:3px;
+    border: none;
+  }
+  
+
+@media (max-width:640px)
+{
+    .Photo{
+      background: none;
+      position: absolute;
+      width:205px;
+      height: 245px;
+      top: 75px;
+      background-size: cover;
+      max-width: 100%;
+    }
+    #name{
+      font-size: 60px;
+    }
+
+    #lastName{
+      font-size: 57px;
+    }
+
+    #description{
+      font-size: 16px;
+
+    }
+
+    .Links .Logos{
+      grid-template-columns: repeat(2,1fr);
+    }
+
+}
+

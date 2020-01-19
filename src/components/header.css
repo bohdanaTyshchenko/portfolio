@@ -1,0 +1,88 @@
+.Header{
+    position: fixed;
+    width: 100%;
+    padding-top: 55px;
+    z-index: 1;
+    margin: 0 auto;
+   
+}
+
+.HeaderScrolled{
+    background:#1D1D1D ;
+    padding: 15px 0;
+    color: white;
+}
+
+.HeaderGroup{
+    max-width: 1173px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    font-size: 25px;
+    align-items: center;
+    transition: top 0.3s;
+    
+}
+ .Header a{
+     text-decoration: none;
+     text-align: center;
+ }
+
+
+.Header a:hover{
+    background: linear-gradient(90deg, rgba(210,188,255,1) 0%, rgba(163,243,255,1) 22%,
+     rgba(153,255,212,1) 47%, rgba(255,252,176,1) 73%, rgba(255,190,221,1) 100%);
+    animation: HeaderAnimation 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 25px;
+ }
+
+
+ a.Head:hover{
+    animation: none;
+    background: none;
+    cursor: default;
+ }
+
+.Black{
+    color: black;
+}
+
+.White{
+    color:white;
+
+}
+
+.Head{
+    color:white;
+    font-weight: bold;
+}
+
+@media (max-width:640px)
+{
+    .Header{
+        padding: 30px 0;
+    }
+
+    .HeaderGroup{
+        grid-template-columns: repeat(4,auto);
+    }
+
+    .Header a:nth-child(1)
+    {
+        display: none;
+    }
+}
+
+@keyframes HeaderAnimation{
+    0%{
+      opacity: 0;
+      /*transform: translateY(15px);*/
+      transform: rotateY(60deg);
+    }
+  
+    100%{
+      opacity: 1;
+      /*transform: translateY(0px);*/
+      transform: rotateY(0deg);
+      color:black;
+    }}
