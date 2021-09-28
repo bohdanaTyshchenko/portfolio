@@ -27,3 +27,4 @@ gatsby develop
 # bohdanaTyshchenko.github.io
 # bohdanaTyshchenko.git.io
 # bohdanaTyshchenko.git.io
+# portfolio
