@@ -50,7 +50,7 @@ and doing interesting things that matter.</p>
         <p>Phone:<br/>+1 (519) 573 1062</p>
       </div>
       <hr></hr>
-    <p id="copyRight">Bohdana Tyshchenko &copy; 2020</p>
+    <p id="copyRight">Bohdana Tyshchenko &copy; 2021</p>
     </div>
     </div>
 

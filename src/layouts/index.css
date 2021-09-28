@@ -250,6 +250,7 @@ animation: HomeAnimation 3s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   .ContactMe{
     position: absolute;
     top:2600px;
+    color: white;
   }
 
   .Info{
@@ -266,7 +267,7 @@ animation: HomeAnimation 3s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   }
 
   .ContactMe a{
-    color: black;
+    color:white;
   }
 
   .ContactMe a:hover{
@@ -276,6 +277,7 @@ animation: HomeAnimation 3s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 
   #copyRight{
     text-align: center;
+    color: black;
     
   }
 
